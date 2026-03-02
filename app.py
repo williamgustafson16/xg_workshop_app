@@ -468,6 +468,7 @@ st.markdown(
     "<h1 style='text-align: center;'>Interactive xG Workshop</h1>",
     unsafe_allow_html=True
 )
+
 import base64
 
 def add_logo(path):
@@ -476,8 +477,8 @@ def add_logo(path):
 
     st.markdown(
         f"""
-        <div style="position:absolute; top:-80px; right:5px;">
-            <img src="data:image/png;base64,{data}" width="220">
+        <div style="text-align: center; margin-top: -10px; margin-bottom: 25px;">
+            <img src="data:image/png;base64,{data}" width="180">
         </div>
         """,
         unsafe_allow_html=True
